@@ -192,8 +192,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
   padding: 0;
-  margin: 0;
-  max-height: 40px;
+  margin: -10px 10px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -534,7 +534,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro #software {
   color: #f82249;
-  text-shadow: 2px 2px rgb(6, 12, 34);
 }
 
 #intro #engineer {
@@ -542,6 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro span {
+  text-shadow: 0 2px rgb(6, 12, 34);
   font-family: "Raleway", sans-serif;
   font-size: 35px;
   font-weight: 600;
@@ -575,7 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   position: relative;
-  top: -120px;
+  top: -110px;
   overflow: hidden;
 }
 
@@ -658,7 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 80px;
   margin-right: 90px;
   position: relative;
-  top: -140px;
+  top: -105px;
 }
 
 #intro .about-btn:hover, .resume-btn:hover {
@@ -667,7 +667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro #button-video {
-  margin-top: -80px;
+  margin-top: -110px;
 }
 
 @-webkit-keyframes pulsate-btn {
