@@ -522,12 +522,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#intro h1 {
+#intro #name {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 100px;
 }
 
 #intro #software {
