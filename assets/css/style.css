@@ -537,6 +537,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 130px;
 }
 
 #intro #engineer {
@@ -545,6 +546,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 130px;
 }
 
 @media (max-width: 991px) {
