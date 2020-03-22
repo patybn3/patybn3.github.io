@@ -523,14 +523,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: rgba(255, 255, 255, 0,5);
+  color: rgba(255, 255, 255, 0.5);
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#intro h1 span {
+#intro #software {
   color: #f82249;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
