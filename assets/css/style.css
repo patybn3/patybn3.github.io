@@ -494,7 +494,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgb(6,12,34);
+  background: radial-gradient(circle, rgba(6,12,34,0.2142292837078652) 0%, rgba(6,12,34,0.7479371488764045) 51%, rgba(6,12,34,1) 100%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -525,16 +526,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro #name {
   color: rgba(255, 255, 255, 0.3);
   font-family: "Raleway", sans-serif;
-  font-size: 130px;
+  font-size: 120px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 110px;
-  position: relative;
-  top: 50px;
+  margin-top: 130px;
 }
 
 #intro #software {
   color: #f82249;
+  text-shadow: 2px 2px rgb(6, 12, 34);
 }
 
 #intro #engineer {
@@ -543,11 +543,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro span {
   font-family: "Raleway", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
-	top: -100px;
+	top: -90px;
 }
 
 @media (max-width: 991px) {
@@ -556,27 +556,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#intro p {
+/* #intro p {
   color: #ebebeb;
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
-	top: -100px;
+	top: -90px;
 }
 
 @media (max-width: 991px) {
   #intro p {
     font-size: 16px;
   }
-}
+} */
 
 #intro .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
-  display: block;
   position: relative;
+  top: -120px;
   overflow: hidden;
 }
 
@@ -641,13 +640,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn {
+#intro .about-btn, .resume-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 12px 35px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
@@ -656,11 +655,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f82249;
+  margin-left: 80px;
+  margin-right: 90px;
+  position: relative;
+  top: -140px;
 }
 
-#intro .about-btn:hover {
+#intro .about-btn:hover, .resume-btn:hover {
   background: #f82249;
   color: #fff;
+}
+
+#intro #button-video {
+  margin-top: -80px;
 }
 
 @-webkit-keyframes pulsate-btn {
