@@ -167,6 +167,34 @@
 
 })(jQuery);
 
+ // skill buttons next
+  $('#skills-2').hide()
+  $('#skills-previous').hide()
+
+  $('#skills-next').on('click', function () {
+    $('#skills-next').trigger('reset')
+
+    setTimeout(() => {
+      $('#skills-1').hide()
+      $('#skills-2').show()
+      $('#skills-next').hide()
+      $('#skills-previous').show()
+    }, 100)
+  })
+
+// previous
+  $('#skills-previous').on('click', function () {
+    $('#skills-previous').trigger('reset')
+
+    setTimeout(() => {
+      $('#skills-1').show()
+      $('#skills-2').hide()
+      $('#skills-previous').hide()
+      $('#skills-next').show()
+    }, 100)
+  })
+
+// resume button
   $('.resume-btn').on('click', function () {
     $('.resume-btn').trigger('reset')
   })
