@@ -166,3 +166,7 @@
   })
 
 })(jQuery);
+
+  $('.resume-btn').on('click', function () {
+    $('.resume-btn').trigger('reset')
+  })
