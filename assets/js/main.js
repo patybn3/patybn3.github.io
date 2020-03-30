@@ -198,11 +198,3 @@
   $('.resume-btn').on('click', function () {
     $('.resume-btn').trigger('reset')
   })
-
-  // projects pages
-  $('#ttt-title').on('click', function () {
-    $('.savvy').hide()
-    $('.pollaris').hide()
-    $('.pro5').hide()
-    $('.pro6').hide()
-  })
