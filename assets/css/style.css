@@ -838,18 +838,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
-#projects-details {
+.projects-details {
   padding: 60px 0;
 }
 
-#projects-details .details h2 {
+.projects-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#projects-details .details p {
+.projects-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
