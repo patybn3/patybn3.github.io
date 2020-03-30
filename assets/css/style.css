@@ -558,6 +558,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
   }
 }
+/* 
+@media (max-width: 768px) {
+   #intro #name {
+     font-size: 35px;
+     margin-top: 20px;
+   }
+
+   #intro span {
+     font-size: 20px;
+
+   }
+} */
 
 /* #intro p {
   color: #ebebeb;
