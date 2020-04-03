@@ -143,6 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   height: 90px;
+  width: auto;
   padding: 25px 0;
   position: fixed;
   left: 0;
@@ -481,18 +482,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
-  width: 100%;
+  width: 100% !important;
   height: 100vh;
   background: url(../img/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
-}
-
-@media (min-width: 1024px) {
-  #intro {
-    background-attachment: fixed;
-  }
 }
 
 #intro:before {
@@ -557,8 +552,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   #intro h1 {
     font-size: 34px;
   }
+
+  #intro #name {
+    font-size: 100px;
+  }
+
+  #intro span {
+    font-size: 25px;
+    top: -70px;
+  }
 }
-/* 
+/*
 @media (max-width: 768px) {
    #intro #name {
      font-size: 35px;
@@ -726,7 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 1024px) {
   #about {
-    background-attachment: fixed;
+    width: 100%
   }
 }
 
