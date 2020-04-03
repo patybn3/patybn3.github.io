@@ -1919,9 +1919,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 33%;
   }
 
-  .contact-form {
-    width: 300px;
-  }
 }
 
 
@@ -1958,8 +1955,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 75px;
   }
 
-  .contact-form {
-    text-align: left;
-    width: 300px;
-  }
 }
