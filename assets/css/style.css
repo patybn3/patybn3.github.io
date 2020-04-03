@@ -1844,3 +1844,122 @@ body.mobile-nav-active #mobile-nav-toggle {
 #location-list {
   color: #fc5674;
 }
+
+.contact-form {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #intro #name {
+    font-size: 90px;
+  }
+  #intro #software {
+    font-size: 30px;
+    top: -60px;
+  }
+
+  #intro #engineer {
+    font-size: 30px;
+    top: -60px;
+  }
+
+  #intro .about-btn {
+    top: -63px;
+    float: left;
+    margin-left: 10px;
+  }
+  #intro .resume-btn {
+    top: -63px;
+    float: right;
+    margin-right: 10px;
+  }
+  #intro .play-btn {
+    top: -75px
+  }
+  #sponsors #skills-next {
+    margin-left: 37%;
+  }
+
+  #sponsors #skills-previous {
+    margin-left: 37%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #intro #name {
+    font-size: 80px;
+  }
+  #intro #software {
+    top: -30px;
+  }
+
+  #intro #engineer {
+    top: -30px;
+  }
+
+  #intro .about-btn {
+    top: -63px;
+    float: left;
+    margin-left: 10px;
+  }
+  #intro .resume-btn {
+    top: -63px;
+    float: right;
+    margin-right: 10px;
+  }
+  #intro .play-btn {
+    top: -60px
+  }
+  #sponsors #skills-next {
+    margin-left: 33%;
+  }
+
+  #sponsors #skills-previous {
+    margin-left: 33%;
+  }
+
+  .contact-form {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #intro #name {
+    font-size: 45px;
+  }
+  #intro #software {
+    top: -10px;
+  }
+
+  #intro #engineer {
+    top: -10px;
+  }
+
+  #intro .about-btn {
+    top: 0;
+    float: left;
+    margin-left: 10px;
+  }
+  #intro .resume-btn {
+    top: -63px;
+    float: right;
+    margin-right: 10px;
+  }
+  #intro .play-btn {
+    top: 60px
+  }
+  #sponsors #skills-next {
+    margin-left: 75px;
+  }
+
+  #sponsors #skills-previous {
+    margin-left: 75px;
+  }
+
+  .contact-form {
+    text-align: left;
+    width: 300px;
+  }
+}
