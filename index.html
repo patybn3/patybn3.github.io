@@ -849,7 +849,7 @@
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOfy2fwijZl-8PJqwbkMAH_baKzeZQ3oMI_MXg2ox_uRvALw/viewform?embedded=true" width="320" height="635" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div> -->
             <div class="form">
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form action="https://formspree.io/xoqkvojw" method="POST" role="form" class="php-email-form" id="my-form">
           <div class="form-row">
             <div class="form-group col-md-6">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -870,10 +870,10 @@
           </div>
           <div class="mb-3">
             <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="error-message">Unable to send this message. Please try again!</div>
+            <div class="sent-message" id="my-form-status">Your message has been sent. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
+          <div class="text-center"><button type="submit" value="Send" id="my-form-button">Send Message</button></div>
         </form>
       </div>
 
