@@ -198,3 +198,16 @@
   $('.resume-btn').on('click', function () {
     $('.resume-btn').trigger('reset')
   })
+
+// submit contact forms
+$('#my-form-button').on('click', function () {
+  $("#my-form-status-error").trigger('reset')
+  $("#my-form-status").trigger('reset')
+  $("#my-form-status-error").show()
+  $("#my-form-status").show()
+
+  setTimeout(() => {
+    $("#my-form-status-error").fadeOut()
+    $("#my-form-status").fadeOut()
+  }, 3000)
+})
