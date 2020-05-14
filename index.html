@@ -846,39 +846,39 @@
 
             </div>
             <!-- changed original php contact form to a google form -->
-            <div class="form contact-form">
+            <!-- <div class="form contact-form">
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOfy2fwijZl-8PJqwbkMAH_baKzeZQ3oMI_MXg2ox_uRvALw/viewform?embedded=true" width="320" height="635" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div> -->
+            <div class="form">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
             </div>
-              <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validate"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
             </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
 
-          </div> -->
-
+    </div>
         </section><!-- End Contact Section -->
 
     <!-- =======  F.A.Q Section ======= -->
@@ -999,7 +999,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>PAntlitz</strong>. All Rights Reserved
+        &copy; Copyright 2020 <strong>PAntlitz</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -1008,9 +1008,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        <br>
-        Modified by <a href="https://pantlitz.dev/">Patricia Antltiz</a>
+        Designed by <a href="https://pantlitz.dev/">Patricia Antltiz</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
